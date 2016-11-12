@@ -1,0 +1,106 @@
+/* This file was based on John Wickerson's CSS file used for the Imperial Concurrency Workshop. */
+body {
+    background-color: #fff3e0;
+    font-family: 'Computer Modern Serif', Times, serif;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.navbar-fixed-top {
+    width: 100%;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffe0b2;
+}
+
+.jumbotron {
+    background-color: #ffe0b2;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.jumbotron h1 {
+    margin-bottom: 0;
+}
+
+.jumbotron h2 {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
+
+
+h1,h2,h3,dt {
+    font-family: 'Computer Modern Sans', Helvetica, sans-serif;
+}
+
+/* http://stackoverflow.com/q/10732690 */
+a.anchor{
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
+ 
+/*a { 
+    font-weight: bold; 
+}
+*/
+a:link { 
+    color: #ff8800;
+}
+
+a[href $='.pdf'] { 
+   padding-right: 16px;
+   background: transparent url(pdf.gif) no-repeat center right;
+}
+
+
+/*
+  dt {
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+    color: green;
+  }
+
+*/
+
+dt:after {
+    content: ":";
+}
+
+/*
+  dd {
+    margin: 0 0 0 110px;
+    padding: 0 0 0.5em 0;
+  }
+*/
+
+.abslink{
+    cursor: pointer;
+    color: #339999; 
+}
+
+.abs {
+    display: none;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
