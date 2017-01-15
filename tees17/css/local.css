@@ -55,7 +55,7 @@ a:link {
 
 a[href $='.pdf'] { 
    padding-right: 16px;
-   background: transparent url(pdf.gif) no-repeat center right;
+   background: transparent url(/tees17/images/pdf.gif) no-repeat center right;
 }
 
 
@@ -103,4 +103,8 @@ dt:after {
     left: 0;
     width: 100% !important;
     height: 100% !important;
+}
+
+div.row {
+    margin-bottom: 1em;
 }
